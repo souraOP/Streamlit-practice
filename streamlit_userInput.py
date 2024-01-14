@@ -2,7 +2,11 @@ import streamlit as st
 import pandas as pd
 from st_chat_message import message
 
-st.set_page_config(layout='wide');
+st.set_page_config(
+     layout='wide',
+     page_title="Soura Day1",
+     page_icon="💦"
+);
 
 st.title("st.multiselect")
 
@@ -31,8 +35,6 @@ if paneer:
 if chicken:
     st.write("Here's some chicken 🍗");
 
-
-st.header('`streamlit_pandas_profiling`')
 
 message("Hello Pontu!", is_user=True)
 message("Hi Ponti How are you ?")
