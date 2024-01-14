@@ -1,2 +1,2 @@
 streamlit==1.30.0
-st_chat_message
+st-chat-message==0.3.8
