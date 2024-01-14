@@ -5,7 +5,7 @@ from st_chat_message import message
 st.set_page_config(
      layout='wide',
      page_title="Soura Day1",
-     page_icon="💦"
+     page_icon="💦",
 );
 
 st.title("st.multiselect")
